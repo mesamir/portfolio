@@ -6,7 +6,7 @@
     <title>Samir Adhikari · QA & Developer Portfolio</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <style>
-        /* CSS Reset & Variables */
+        
         :root {
             --primary: #2d818f;
             --dark: #0a2a36;
@@ -36,7 +36,7 @@
             padding: 2rem 1.5rem;
         }
 
-        /* Navbar */
+        
         .navbar {
             display: flex;
             justify-content: space-between;
@@ -72,7 +72,7 @@
             border-bottom-color: var(--primary);
         }
 
-        /* Hero Section */
+       
         .hero {
             display: flex;
             flex-wrap: wrap;
@@ -148,7 +148,7 @@
         
         .hero-avatar:hover { border-radius: 50%; }
 
-        /* Skill Cards */
+      
         .filter-btns { display: flex; gap: 0.8rem; margin-bottom: 2rem; flex-wrap: wrap; }
         .filter-btn {
             background: white;
@@ -192,7 +192,7 @@
         .skill-card ul { list-style: none; font-size: 0.95rem; color: var(--text); }
         .skill-card li { margin-bottom: 0.4rem; display: flex; align-items: center; gap: 8px; }
 
-        /* Projects Section */
+       
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -217,7 +217,7 @@
             color: var(--primary);
         }
 
-        /* Experience & Education */
+        
         .exp-edu-grid {
             display: grid;
             grid-template-columns: 1.5fr 1fr;
@@ -440,11 +440,11 @@
     </div>
 
     <script>
-        // Update Date
+      
         const dateSpan = document.getElementById('dateSpan');
         if (dateSpan) dateSpan.innerText = new Date().toLocaleDateString();
 
-        // Filtering Logic
+       
         const filterBtns = document.querySelectorAll('.filter-btn');
         const cards = document.querySelectorAll('.skill-card');
 
